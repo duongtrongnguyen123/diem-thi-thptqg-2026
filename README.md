@@ -1,6 +1,6 @@
 # Điểm thi THPT Quốc gia 2026
 
-Bộ dữ liệu điểm thi tốt nghiệp THPT năm 2026 của **1.166.131 thí sinh** toàn quốc (33/34 tỉnh/thành phố — Cần Thơ sẽ được cập nhật sớm).
+Bộ dữ liệu điểm thi tốt nghiệp THPT năm 2026 của **1.200.202 thí sinh** toàn quốc (34 tỉnh/thành phố sau khi sắp xếp lại đơn vị hành chính).
 
 Dữ liệu thu thập từ trang tra cứu công khai của VietnamNet ngày 01/07/2026.
 
@@ -45,7 +45,7 @@ Dữ liệu thu thập từ trang tra cứu công khai của VietnamNet ngày 01
 | `82-dong-thap.csv` | Đồng Tháp |
 | `86-vinh-long.csv` | Vĩnh Long |
 | `91-an-giang.csv` | An Giang |
-| `92-can-tho.csv` | Cần Thơ *(sẽ cập nhật)* |
+| `92-can-tho.csv` | Cần Thơ |
 | `96-ca-mau.csv` | Cà Mau |
 
 ### Cột CSV

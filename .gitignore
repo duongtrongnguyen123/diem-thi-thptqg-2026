@@ -4,3 +4,4 @@
 __pycache__/
 *.pyc
 .DS_Store
+data/diem_thi_thptqg_2026_all.csv
