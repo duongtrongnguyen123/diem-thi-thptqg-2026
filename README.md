@@ -117,3 +117,39 @@ python3 -m venv .venv && .venv/bin/pip install aiohttp
 ```
 
 Xem `scripts/scraper_async.py` để biết thêm tùy chọn (`--workers`, `--max-miss`, v.v.).
+
+---
+
+## Phân tích bất thường
+
+> Đây là quan sát thống kê từ dữ liệu, không phải kết luận chính thức.
+
+### 1. Điểm ngữ văn tập trung bất thường tại mức 5,0
+
+Số thí sinh đạt đúng **5,0 điểm ngữ văn** (ngưỡng tốt nghiệp) cao hơn đáng kể so với mức nội suy từ các điểm lân cận (4,75 và 5,25), ước tính dư ra ~**4.800 thí sinh** trên toàn quốc.
+
+| Tỉnh/Thành | Tỉ lệ so với dự kiến | Số dư ước tính |
+|---|---|---|
+| Điện Biên | **1,59×** | +204 |
+| Cà Mau | **1,52×** | +165 |
+| Lạng Sơn | 1,30× | +156 |
+| Tây Ninh | 1,29× | +157 |
+| Nghệ An | 1,26× | +187 |
+| Đà Nẵng | 1,20× | +362 |
+| Hà Nội | 1,00× | ≈ 0 |
+| Hưng Yên | 1,00× | ≈ 0 |
+
+Ở cấp phòng thi (~24 SBD liên tiếp), có **193 phòng** ghi nhận từ 5 thí sinh trở lên đạt đúng 5,0 điểm ngữ văn — xác suất xảy ra ngẫu nhiên rất thấp. Tây Ninh (36 phòng), Sơn La (31 phòng) và Đà Nẵng (27 phòng) là những nơi tập trung nhiều nhất.
+
+### 2. Các cụm SBD có điểm toán cao bất thường
+
+Cấu trúc SBD có dạng `[mã tỉnh] + [mã điểm thi 3 số] + [số thứ tự 3 số]`. Một số cụm điểm thi ghi nhận điểm toán trung bình vượt xa mặt bằng chung của tỉnh:
+
+| Tỉnh | Dải SBD | Mã điểm thi | Toán mean | Toán mean cả tỉnh |
+|---|---|---|---|---|
+| Hưng Yên | 33000000–33000999 | 000 | **7,64** | 5,99 |
+| Phú Thọ | 25000000–25001999 | 000–001 | **7,54 / 7,39** | 5,70 |
+| Ninh Bình | 37023000–37023999 | 023 | **7,35** | 6,15 |
+| Hà Nội | 1023000–1023999 | 023 | **7,70** | 6,61 |
+
+Các cụm này có ranh giới rõ ràng với SBD lân cận và nhiều khả năng tương ứng với các trường chuyên của tỉnh — tuy nhiên chưa có nguồn chính thức xác nhận tên trường cụ thể.
