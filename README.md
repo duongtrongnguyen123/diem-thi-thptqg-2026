@@ -126,7 +126,7 @@ Xem `scripts/scraper_async.py` để biết thêm tùy chọn (`--workers`, `--m
 
 ### 1. Điểm ngữ văn tập trung bất thường tại mức 5,0
 
-Số thí sinh đạt đúng **5,0 điểm ngữ văn** (ngưỡng tốt nghiệp) cao hơn đáng kể so với mức nội suy từ các điểm lân cận (4,75 và 5,25), ước tính dư ra ~**4.800 thí sinh** trên toàn quốc.
+Số thí sinh đạt đúng **5,0 điểm ngữ văn** cao hơn đáng kể so với mức nội suy từ các điểm lân cận (4,75 và 5,25), ước tính dư ra ~**4.800 thí sinh** trên toàn quốc. Lưu ý: điều kiện tốt nghiệp THPT 2026 là điểm xét tốt nghiệp tổng hợp ≥ 5,0 (không phải từng môn riêng lẻ), nên spike này nhiều khả năng phản ánh xu hướng tâm lý của người chấm đối với mức điểm tròn.
 
 | Tỉnh/Thành | Tỉ lệ so với dự kiến | Số dư ước tính |
 |---|---|---|
